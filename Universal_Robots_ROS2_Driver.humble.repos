@@ -16,9 +16,10 @@ repositories:
     url: https://github.com/ros-controls/ros2_control.git
     version: humble
   ros2_controllers:
+    # ROS2 Humble 2.36.0: https://github.com/ros-controls/ros2_controllers/commit/0766dac7a7760c47726fe291cdaaec6d32e58894
     type: git
     url: https://github.com/ros-controls/ros2_controllers
-    version: humble
+    version: 0766dac7a7760c47726fe291cdaaec6d32e58894
   kinematics_interface:
     type: git
     url: https://github.com/ros-controls/kinematics_interface.git
